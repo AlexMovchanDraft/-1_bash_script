@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "restore backup ..."
+
+unzip ~/projects/project.zip
+mv ~/projects/project.db ~/database
+
+
